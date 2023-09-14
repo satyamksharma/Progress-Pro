@@ -1,5 +1,5 @@
 function Progress() {
-    return <div>Progress</div>;
+    return <div>Workout</div>;
 }
 
 export default Progress;
