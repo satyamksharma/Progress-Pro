@@ -1,23 +1,20 @@
 import { NavLink } from "react-router-dom";
-import Home from "../pages/Home";
-import Pricing from "../pages/Pricing";
-import About from "../pages/About";
-import SignUp from "../pages/SignUp";
+
 function MainNav() {
     return (
         <nav>
             <ul>
                 <li>
-                    <NavLink to={<Home />}>Home</NavLink>
+                    <NavLink to='/'>Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to={<About />}>About</NavLink>
+                    <NavLink to='/about'>About</NavLink>
                 </li>
                 <li>
-                    <NavLink to={<Pricing />}>Pricing</NavLink>
+                    <NavLink to='/pricing'>Pricing</NavLink>
                 </li>
                 <li>
-                    <NavLink to={<SignUp />}>SignUp</NavLink>
+                    <NavLink to='/login'>Login/SignUp</NavLink>
                 </li>
             </ul>
         </nav>

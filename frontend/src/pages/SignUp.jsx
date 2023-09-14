@@ -1,5 +1,14 @@
+import MainNav from "../components/MainNav";
+
 function SignUp() {
-    return <div>SignUp</div>;
+    return (
+        <>
+            <MainNav />
+            <section>
+                <h1>Sign Up</h1>
+            </section>
+        </>
+    );
 }
 
 export default SignUp;

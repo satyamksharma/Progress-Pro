@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import PageNotFound from "./pages/PageNotFound";
+import Pricing from "./pages/Pricing";
 
 function App() {
     return (
@@ -16,6 +17,10 @@ function App() {
                 <Route
                     path='/about'
                     element={<About />}
+                />
+                <Route
+                    path='/pricing'
+                    element={<Pricing />}
                 />
                 <Route
                     path='/login'

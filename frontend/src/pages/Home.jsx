@@ -4,7 +4,9 @@ function Home() {
     return (
         <>
             <MainNav />
-            <section>Home</section>
+            <section>
+                <h1>Home</h1>
+            </section>
         </>
     );
 }

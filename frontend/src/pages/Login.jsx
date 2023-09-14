@@ -1,5 +1,14 @@
+import MainNav from "../components/MainNav";
+
 function Login() {
-    return <div>Login</div>;
+    return (
+        <>
+            <MainNav />
+            <section>
+                <h1>Login</h1>
+            </section>
+        </>
+    );
 }
 
 export default Login;
