@@ -1,12 +1,12 @@
 import MainNav from "../components/MainNav";
 
-function Pricing() {
+function PageNotFound() {
     return (
         <>
             <MainNav />
-            <section>Pricing</section>
+            <div>Page Nout Found</div>;
         </>
     );
 }
 
-export default Pricing;
+export default PageNotFound;

@@ -1,8 +1,11 @@
+import MainNav from "../components/MainNav";
+
 function Home() {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <>
+            <MainNav />
+            <section>Home</section>
+        </>
     );
 }
 

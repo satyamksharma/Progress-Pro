@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
     return (
@@ -23,6 +24,10 @@ function App() {
                 <Route
                     path='/signup'
                     element={<SignUp />}
+                />
+                <Route
+                    path='*'
+                    element={<PageNotFound />}
                 />
             </Routes>
         </BrowserRouter>

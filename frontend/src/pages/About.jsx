@@ -1,5 +1,12 @@
+import MainNav from "../components/MainNav";
+
 function About() {
-    return <div>About</div>;
+    return (
+        <>
+            <MainNav />
+            <section>About</section>
+        </>
+    );
 }
 
 export default About;
