@@ -4,7 +4,9 @@ function PageNotFound() {
     return (
         <>
             <MainNav />
-            <div>Page Nout Found</div>;
+            <section className=' mt-14 '>
+                <div>Page Nout Found</div>;
+            </section>
         </>
     );
 }

@@ -4,7 +4,7 @@ function About() {
     return (
         <>
             <MainNav />
-            <section>About</section>
+            <section className=' mt-14 '>About</section>
         </>
     );
 }

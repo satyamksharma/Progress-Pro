@@ -4,7 +4,7 @@ function SignUp() {
     return (
         <>
             <MainNav />
-            <section>
+            <section className=' mt-14 '>
                 <h1>Sign Up</h1>
             </section>
         </>

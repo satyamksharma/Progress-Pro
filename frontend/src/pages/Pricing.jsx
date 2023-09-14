@@ -4,7 +4,7 @@ function Pricing() {
     return (
         <>
             <MainNav />
-            <section>Pricing</section>
+            <section className=' mt-14 '>Pricing</section>
         </>
     );
 }
