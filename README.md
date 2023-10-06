@@ -42,12 +42,12 @@ Progress Pro is a full-stack web application built using ReactJS, NodeJS, Expres
 
    ```bash
    # Install frontend dependencies
-    cd frontend
+    cd client
     npm install
 
     # Install backend dependencies
     cd ..
-    cd backend
+    cd server
     npm install
 
 4. Set up the MySQL database. You will need to create a `.env` file in the `server` directory and provide your MySQL database configuration. Example:
@@ -61,7 +61,7 @@ Progress Pro is a full-stack web application built using ReactJS, NodeJS, Expres
 5. Create the necessary database tables by running migrations:
 
     ```bash
-    cd backend
+    cd server
     npm run migrate
 
 6. Start the backend server:
@@ -72,7 +72,7 @@ Progress Pro is a full-stack web application built using ReactJS, NodeJS, Expres
 7. Start the frontend development server:
 
     ```bash
-    cd frontend
+    cd client
     npm ren dev
 
 8. Open your browser and navigate to `http://localhost:3000` to access the application.
