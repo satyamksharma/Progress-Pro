@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
-import Logo from "../assets/logo.png";
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import Logo from '../assets/logo.png';
 
 function MainNav() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -49,7 +49,7 @@ function MainNav() {
                 </div>
                 <div
                     className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${
-                        mobileMenuOpen ? "block" : "hidden"
+                        mobileMenuOpen ? 'block' : 'hidden'
                     } `}
                     id='navbar-sticky'
                 >
