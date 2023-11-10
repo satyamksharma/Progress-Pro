@@ -1,6 +1,7 @@
 import About from '../components/Home/About';
 import Contact from '../components/Home/Contact';
 import Pricing from '../components/Home/Pricing';
+import Testimonials from '../components/Home/Testimonials';
 import { ShuffleGrid } from '../components/Home/shuffledGrid';
 import Layout from '../components/Layout';
 
@@ -28,6 +29,7 @@ function Home() {
             </section>
             <div className=' w-full bg-primary-light-100 dark:bg-primary-dark-100'>d</div>
             <About />
+            <Testimonials />
             <Pricing />
             <Contact />
         </Layout>
