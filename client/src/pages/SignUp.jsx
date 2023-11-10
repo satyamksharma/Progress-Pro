@@ -1,12 +1,12 @@
-import MainNav from '../components/MainNav';
+import Navbar from '../components/Navbar/Navbar';
 
 function SignUp() {
     return (
         <>
-            <MainNav />
-            <section className='bg-gray-50 '>
+            <Navbar />
+            <section className='bg-bg-light dark:bg-bg-dark '>
                 <div className='flex flex-col items-center justify-center pt-16 px-6 py-8 mx-auto h-screen lg:py-0'>
-                    <div className='w-full bg-white rounded-lg shadow  md:mt-0 sm:max-w-md xl:p-0 '>
+                    <div className='w-full  rounded-lg shadow  md:mt-0 sm:max-w-md xl:p-0 '>
                         <div className='p-6 space-y-4 md:space-y-6 sm:p-8'>
                             <h1 className='text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl '>
                                 Create and account
@@ -90,7 +90,7 @@ function SignUp() {
                                 </div>
                                 <button
                                     type='submit'
-                                    className='w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center '
+                                    className='w-full text-bg-dark dark:text-bg-light bg-primary-light-100 hover:bg-primary-light-200 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center '
                                 >
                                     Create an account
                                 </button>
