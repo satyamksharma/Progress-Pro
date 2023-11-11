@@ -1,13 +1,13 @@
 const Testimonials = () => {
     return (
         <>
-            <div className='flex flex-col justify-center items-center'>
+            <div className='flex flex-col justify-center items-center my-4 md:py-10'>
                 <h1 className=' text-4xl font-semibold text-primary-light-200'>Our Happy Users</h1>
                 <p className=' text-base font-sans text-gray-700'>
                     What Our Users Says About our Application
                 </p>
             </div>
-            <div className='flex flex-col items-center w-full gap-4 p-8 mb-8 md:flex-row md:mb-0 flex-between'>
+            <div className='flex flex-col items-center w-full gap-4 p-8 mb-8 md:flex-row md:mb-12 flex-between'>
                 <div className='bg-white dark:bg-gray-800 w-72 shadow-lg mx-auto rounded-xl p-4'>
                     <p className='text-gray-600 dark:text-white'>
                         <span className='text-lg font-bold text-indigo-500'>“</span>

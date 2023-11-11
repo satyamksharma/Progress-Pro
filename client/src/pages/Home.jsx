@@ -32,7 +32,7 @@ function Home() {
                 </div>
                 <ShuffleGrid />
             </section>
-            <div className=' w-full bg-primary-light-100 dark:bg-primary-dark-100'>d</div>
+
             <About />
             <Testimonials />
             <Pricing />
