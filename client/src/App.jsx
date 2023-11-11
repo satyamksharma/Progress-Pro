@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import PageNotFound from './pages/PageNotFound';
+import ForgotPassword from './pages/Users/ForgotPassword';
 
 function App() {
     return (
@@ -19,6 +20,10 @@ function App() {
                 <Route
                     path='/signup'
                     element={<SignUp />}
+                />
+                <Route
+                    path='/forgot-password'
+                    element={<ForgotPassword />}
                 />
                 <Route
                     path='*'
