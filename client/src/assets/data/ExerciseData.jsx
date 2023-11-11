@@ -8,26 +8,26 @@ export const ExerciseData = [
     {
         id: 2,
         Image: '',
-        Name: 'Squats',
-        Type: 'Bodyweight',
+        Name: 'Arnold Press',
+        Type: 'Dumbbell',
     },
     {
         id: 3,
         Image: '',
-        Name: 'Bench Press',
+        Name: 'Diamond Pushups',
         Type: 'Bodyweight',
     },
     {
         id: 4,
         Image: '',
-        Name: 'Deadlifts',
-        Type: 'Bodyweight',
+        Name: 'Dumbbell Curl',
+        Type: 'Dumbbell',
     },
     {
         id: 5,
         Image: '',
-        Name: 'Lunges',
-        Type: 'Dumbbell',
+        Name: 'One Arm Preacher Curl',
+        Type: 'Bodyweight',
     },
     {
         id: 6,

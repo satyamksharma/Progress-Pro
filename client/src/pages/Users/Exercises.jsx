@@ -24,7 +24,7 @@ function Exercises() {
                         >
                             <div className='w-32 h-32 lg:w-48 lg:h-48 bg-gray-200 rounded-full overflow-hidden'>
                                 <img
-                                    src={exercise.Image}
+                                    src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGdtZDN1czR4YW56djJmNWhkZnoxa2wwNjRvaG92YzNwbm1hNTZuaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tsX3YMWYzDPjAARfeg/giphy.gif'
                                     alt={exercise.Name}
                                     className='w-full h-full object-cover object-center rounded-full'
                                 />
