@@ -10,6 +10,7 @@ const Path = (props) => (
     />
 );
 
+// eslint-disable-next-line react/prop-types
 export const MenuToggle = ({ toggle }) => (
     <button
         className=' outline-none select-none border-none cursor-pointer absolute top-[0.1rem] left-5 w-16 h-16 bg-transparent rounded-full  '
