@@ -4,6 +4,10 @@ import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import PageNotFound from './pages/PageNotFound';
 import ForgotPassword from './pages/Users/ForgotPassword';
+import Workout from './pages/Users/Workout';
+import Exercises from './pages/Users/Exercises';
+import Settings from './pages/Users/Settings';
+import Profile from './pages/Users/Profile';
 
 function App() {
     return (
@@ -24,6 +28,22 @@ function App() {
                 <Route
                     path='/forgot-password'
                     element={<ForgotPassword />}
+                />
+                <Route
+                    path='/:uId/'
+                    element={<Workout />}
+                />
+                <Route
+                    path='/:uId/exercises'
+                    element={<Exercises />}
+                />
+                <Route
+                    path='/:uId/settings'
+                    element={<Settings />}
+                />
+                <Route
+                    path='/:uId/profile'
+                    element={<Profile />}
                 />
                 <Route
                     path='*'

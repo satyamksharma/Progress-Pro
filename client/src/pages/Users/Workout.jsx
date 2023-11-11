@@ -1,5 +1,11 @@
+import UserNavbar from '../../components/Navbar/UserNavbar';
+
 function Progress() {
-    return <div>Workout</div>;
+    return (
+        <>
+            <UserNavbar />
+        </>
+    );
 }
 
 export default Progress;

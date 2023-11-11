@@ -1,5 +1,10 @@
+import UserNavbar from '../../components/Navbar/UserNavbar';
 function Exercises() {
-    return <div>Exercises</div>;
+    return (
+        <>
+            <UserNavbar />
+        </>
+    );
 }
 
 export default Exercises;
