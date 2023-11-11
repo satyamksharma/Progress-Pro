@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import About from '../components/Home/About';
 import Contact from '../components/Home/Contact';
 import Pricing from '../components/Home/Pricing';
@@ -21,9 +22,13 @@ function Home() {
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nobis in error
                         repellat voluptatibus ad.
                     </p>
-                    <button className='bg-primary-light-100 text-bg-light font-medium py-2 px-4 rounded transition-all hover:bg-primary-light-200 active:scale-95'>
-                        Find a className
-                    </button>
+
+                    <Link
+                        to='/signup'
+                        className=' border p-3 px-4  w-20 text-center bg-primary-light-100 hover:bg-primary-light-200 rounded-md transition-all duration-300 ease-in-out active:scale-95'
+                    >
+                        Get Started &rarr;
+                    </Link>
                 </div>
                 <ShuffleGrid />
             </section>
