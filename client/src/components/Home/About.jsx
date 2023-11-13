@@ -16,18 +16,21 @@ import { useState } from 'react';
 
 export const projects = [
     {
-        title: 'Algochurn',
-        description: 'A web app that allows users to practice for front-end and UI interviews.',
+        title: 'Personalized Workouts',
+        description:
+            "Tailor your exercise routine to meet your fitness goals with personalized workout plans. Whether you're aiming for strength, endurance, or flexibility, our app adapts to your needs.",
         link: 'https://algochurn.com',
     },
     {
-        title: 'Algochurn',
-        description: 'A web app that allows users to practice for front-end and UI interviews.',
+        title: 'Progress Tracking',
+        description:
+            'Stay motivated by tracking your fitness journey. Monitor your progress, set achievable milestones, and celebrate your accomplishments as you work towards a healthier and stronger you.',
         link: 'https://algochurn.com',
     },
     {
-        title: 'Algochurn',
-        description: 'A web app that allows users to practice for front-end and UI interviews.',
+        title: 'Community Support',
+        description:
+            'Join a thriving fitness community where you can connect with like-minded individuals, share achievements, and find inspiration. Foster a sense of accountability and encouragement on your fitness path.',
         link: 'https://algochurn.com',
     },
     {
