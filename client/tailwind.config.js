@@ -39,12 +39,14 @@ export default {
                 sans: ['Roboto', 'sans-serif'],
             },
             animation: {
-                'infinite-scroll': 'infinite-scroll 25s linear infinite',
+                ['infinite-slider']: 'infiniteSlider 25s linear infinite',
             },
             keyframes: {
-                'infinite-scroll': {
-                    '0%': { transform: 'translateX(0%)' },
-                    '100%': { transform: 'translateX(-100%)' },
+                infiniteSlider: {
+                    '0%': { transform: 'translateX(0)' },
+                    '100%': {
+                        transform: 'translateX(calc(-250px * 5))',
+                    },
                 },
             },
         },
