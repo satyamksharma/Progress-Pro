@@ -1,11 +1,9 @@
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
-import SideBar from './SideBar';
 
 const Navbar = () => {
     return (
         <div className='fixed flex flex-1 w-screen px-6 pr-3 md:px-32  bg-bg-light dark:bg-bg-dark z-50'>
-            <SideBar />
             <div className='w-full flex justify-end px-4 md:justify-between '>
                 <Link
                     to='/'

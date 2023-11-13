@@ -1,5 +1,5 @@
 import UserNavbar from '../../components/Navbar/UserNavbar';
-import { ExerciseData } from '../../assets/data/ExerciseData';
+import ExerciseData from '../../assets/data/ExerciseData.json';
 function Exercises() {
     const AddExerciseHandler = () => {
         console.log('Add Exercise');

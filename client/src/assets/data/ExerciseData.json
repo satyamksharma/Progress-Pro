@@ -1,0 +1,350 @@
+[
+    {
+        "id": 1,
+        "Image": "../ExerciseImg/PushUps.gif",
+        "Name": "Pushups",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 2,
+        "Image": "",
+        "Name": "Arnold Press",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 3,
+        "Image": "",
+        "Name": "Squats",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 4,
+        "Image": "",
+        "Name": "Lunges",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 5,
+        "Image": "",
+        "Name": "Bicep Curls",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 6,
+        "Image": "",
+        "Name": "Tricep Extensions",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 7,
+        "Image": "",
+        "Name": "Shoulder Press",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 8,
+        "Image": "",
+        "Name": "Deadlifts",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 9,
+        "Image": "",
+        "Name": "Plank",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 10,
+        "Image": "",
+        "Name": "Sit-ups",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 11,
+        "Image": "",
+        "Name": "Crunches",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 12,
+        "Image": "",
+        "Name": "Russian Twists",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 13,
+        "Image": "",
+        "Name": "Leg Raises",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 14,
+        "Image": "",
+        "Name": "Flutter Kicks",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 15,
+        "Image": "",
+        "Name": "Jumping Jacks",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 16,
+        "Image": "",
+        "Name": "Mountain Climbers",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 17,
+        "Image": "",
+        "Name": "Burpees",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 18,
+        "Image": "",
+        "Name": "Pull-ups",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 19,
+        "Image": "",
+        "Name": "Chin-ups",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 20,
+        "Image": "",
+        "Name": "Dips",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 21,
+        "Image": "",
+        "Name": "Incline Bench Press",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 22,
+        "Image": "",
+        "Name": "Decline Bench Press",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 23,
+        "Image": "",
+        "Name": "Flat Bench Press",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 24,
+        "Image": "",
+        "Name": "Flys",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 25,
+        "Image": "",
+        "Name": "Hammer Curls",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 26,
+        "Image": "",
+        "Name": "Reverse Curls",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 27,
+        "Image": "",
+        "Name": "Skull Crushers",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 28,
+        "Image": "",
+        "Name": "Bent Over Rows",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 29,
+        "Image": "",
+        "Name": "Upright Rows",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 30,
+        "Image": "",
+        "Name": "Shrugs",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 31,
+        "Image": "",
+        "Name": "Side Lateral Raises",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 32,
+        "Image": "",
+        "Name": "Front Lateral Raises",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 33,
+        "Image": "",
+        "Name": "Bent Over Rear Delt Raises",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 34,
+        "Image": "",
+        "Name": "Calf Raises",
+        "Type": "Bodyweight"
+    },
+    {
+        "id": 35,
+        "Image": "",
+        "Name": "Leg Press",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 36,
+        "Image": "",
+        "Name": "Leg Curls",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 37,
+        "Image": "",
+        "Name": "Leg Extensions",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 38,
+        "Image": "",
+        "Name": "Seated Rows",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 39,
+        "Image": "",
+        "Name": "Lat Pulldowns",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 40,
+        "Image": "",
+        "Name": "Cable Rows",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 41,
+        "Image": "",
+        "Name": "Cable Curls",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 42,
+        "Image": "",
+        "Name": "Cable Tricep Extensions",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 43,
+        "Image": "",
+        "Name": "Cable Flys",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 44,
+        "Image": "",
+        "Name": "Cable Crunches",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 45,
+        "Image": "",
+        "Name": "Cable Leg Curls",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 46,
+        "Image": "",
+        "Name": "Cable Leg Extensions",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 47,
+        "Image": "",
+        "Name": "Cable Calf Raises",
+        "Type": "Dumbbell"
+    },
+    {
+        "id": 48,
+        "Image": "",
+        "Name": "Stretching Hamstrings",
+        "Type": "Stretching"
+    },
+    {
+        "id": 49,
+        "Image": "",
+        "Name": "Stretching Quads",
+        "Type": "Stretching"
+    },
+    {
+        "id": 50,
+        "Image": "",
+        "Name": "Stretching Calves",
+        "Type": "Stretching"
+    },
+    {
+        "id": 51,
+        "Image": "",
+        "Name": "Stretching Shoulders",
+        "Type": "Stretching"
+    },
+    {
+        "id": 52,
+        "Image": "",
+        "Name": "Stretching Chest",
+        "Type": "Stretching"
+    },
+    {
+        "id": 53,
+        "Image": "",
+        "Name": "Stretching Back",
+        "Type": "Stretching"
+    },
+    {
+        "id": 54,
+        "Image": "",
+        "Name": "Stretching Triceps",
+        "Type": "Stretching"
+    },
+    {
+        "id": 55,
+        "Image": "",
+        "Name": "Stretching Biceps",
+        "Type": "Stretching"
+    },
+    {
+        "id": 56,
+        "Image": "",
+        "Name": "Stretching Neck",
+        "Type": "Stretching"
+    },
+    {
+        "id": 57,
+        "Image": "",
+        "Name": "Stretching Groin",
+        "Type": "Stretching"
+    },
+    {
+        "id": 58,
+        "Image": "",
+        "Name": "Stretching Hips",
+        "Type": "Stretching"
+    }
+]

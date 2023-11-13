@@ -4,6 +4,7 @@ import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import PageNotFound from './pages/PageNotFound';
 import ForgotPassword from './pages/Users/ForgotPassword';
+import Dashboard from './pages/Users/Dashboard';
 import Workout from './pages/Users/Workout';
 import Exercises from './pages/Users/Exercises';
 import Settings from './pages/Users/Settings';
@@ -31,6 +32,10 @@ function App() {
                 />
                 <Route
                     path='/:uId/'
+                    element={<Dashboard />}
+                />
+                <Route
+                    path='/:uId/workout'
                     element={<Workout />}
                 />
                 <Route

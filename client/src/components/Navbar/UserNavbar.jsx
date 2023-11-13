@@ -55,6 +55,14 @@ function UserNavbar() {
                                         to='/:uId/'
                                         className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
                                     >
+                                        Dashboard
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        to='/:uId/workout'
+                                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
+                                    >
                                         Workout
                                     </Link>
                                 </li>
@@ -105,6 +113,15 @@ function UserNavbar() {
                         <li>
                             <Link
                                 to='/:uId/'
+                                className='block py-2 px-3 text-white bg-primary-light-100 rounded md:bg-transparent md:text-primary-light-100 md:p-0 md:dark:text-primary-light-100'
+                                aria-current='page'
+                            >
+                                Dashboard
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to='/:uId/workout'
                                 className='block py-2 px-3 text-white bg-primary-light-100 rounded md:bg-transparent md:text-primary-light-100 md:p-0 md:dark:text-primary-light-100'
                                 aria-current='page'
                             >
