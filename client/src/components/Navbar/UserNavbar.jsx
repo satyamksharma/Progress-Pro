@@ -35,7 +35,7 @@ function UserNavbar() {
                     </button>
                     {isUserDropdownOpen && (
                         <div
-                            className='absolute top-12 right-0 z-50 my-4 text-base list-none bg-bg-white divide-y divide-bg-white rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600'
+                            className='absolute top-12 right-0 z-50 my-4 text-base list-none bg-bg-light divide-y divide-bg-white rounded-lg shadow dark:bg-bg-dark dark:divide-bg-dark'
                             id='user-dropdown'
                         >
                             <div className='px-4 py-3'>
@@ -53,7 +53,7 @@ function UserNavbar() {
                                 <li>
                                     <Link
                                         to='/:uId/'
-                                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
+                                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
                                     >
                                         Dashboard
                                     </Link>
@@ -61,7 +61,7 @@ function UserNavbar() {
                                 <li>
                                     <Link
                                         to='/:uId/workout'
-                                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
+                                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
                                     >
                                         Workout
                                     </Link>
@@ -69,15 +69,15 @@ function UserNavbar() {
                                 <li>
                                     <Link
                                         to='/:uId/exercises'
-                                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
+                                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
                                     >
                                         Exercises
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        href='/:uId/settings'
-                                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
+                                        to='/:uId/settings'
+                                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
                                     >
                                         Settings
                                     </Link>
@@ -86,9 +86,9 @@ function UserNavbar() {
                                 <li>
                                     <Link
                                         to='/'
-                                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white'
+                                        className='block px-4 py-2 font-bold text-sm text-primary-light-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white rounded-lg'
                                     >
-                                        Sign out
+                                        Sign out &rarr;
                                     </Link>
                                 </li>
                             </ul>
@@ -109,11 +109,11 @@ function UserNavbar() {
                     }`}
                     id='navbar-user'
                 >
-                    <ul className='flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-bg-light md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-bg-light dark:bg-bg-dark md:dark:bg-bg-dark dark:border-gray-700'>
+                    <ul className='flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg font-pacifico bg-bg-light md:space-x-6 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-bg-light dark:bg-bg-dark md:dark:bg-bg-dark dark:border-gray-700'>
                         <li>
                             <Link
                                 to='/:uId/'
-                                className='block py-2 px-3 text-white bg-primary-light-100 rounded md:bg-transparent md:text-primary-light-100 md:p-0 md:dark:text-primary-light-100'
+                                className='block p-2 '
                                 aria-current='page'
                             >
                                 Dashboard
@@ -122,7 +122,7 @@ function UserNavbar() {
                         <li>
                             <Link
                                 to='/:uId/workout'
-                                className='block py-2 px-3 text-white bg-primary-light-100 rounded md:bg-transparent md:text-primary-light-100 md:p-0 md:dark:text-primary-light-100'
+                                className='block p-2 '
                                 aria-current='page'
                             >
                                 Workout
@@ -131,7 +131,8 @@ function UserNavbar() {
                         <li>
                             <Link
                                 to='/:uId/exercises'
-                                className='block py-2 px-3 text-bg-dark rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary-light-100 md:p-0 dark:text-bg-light md:dark:hover:text-primary-light-100 dark:hover:bg-gray-700 dark:hover:text-bg-light md:dark:hover:bg-transparent dark:border-bg-dark'
+                                className='block p-2 '
+                                aria-current='page'
                             >
                                 Exercises
                             </Link>
@@ -139,7 +140,8 @@ function UserNavbar() {
                         <li>
                             <Link
                                 to='/:uId/settings'
-                                className='block py-2 px-3 text-bg-dark rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary-light-100 md:p-0 dark:text-bg-light md:dark:hover:text-primary-light-100 dark:hover:bg-gray-700 dark:hover:text-bg-light md:dark:hover:bg-transparent dark:border-bg-dark'
+                                className='block p-2 '
+                                aria-current='page'
                             >
                                 Settings
                             </Link>
@@ -147,7 +149,7 @@ function UserNavbar() {
                     </ul>
                     <div className='flex mx-4 ml-16 items-center'>
                         <Link
-                            to='/login'
+                            to='/'
                             className=' border p-2 w-20 h-10 text-center  bg-primary-light-100 hover:bg-primary-light-200 rounded-md transition-all duration-300 ease-in-out'
                         >
                             Logout

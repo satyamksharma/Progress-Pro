@@ -19,34 +19,31 @@ export const projects = [
         title: 'Personalized Workouts',
         description:
             "Tailor your exercise routine to meet your fitness goals with personalized workout plans. Whether you're aiming for strength, endurance, or flexibility, our app adapts to your needs.",
-        link: 'https://algochurn.com',
     },
     {
         title: 'Progress Tracking',
         description:
             'Stay motivated by tracking your fitness journey. Monitor your progress, set achievable milestones, and celebrate your accomplishments as you work towards a healthier and stronger you.',
-        link: 'https://algochurn.com',
     },
     {
         title: 'Community Support',
         description:
             'Join a thriving fitness community where you can connect with like-minded individuals, share achievements, and find inspiration. Foster a sense of accountability and encouragement on your fitness path.',
-        link: 'https://algochurn.com',
     },
     {
-        title: 'Algochurn',
-        description: 'A web app that allows users to practice for front-end and UI interviews.',
-        link: 'https://algochurn.com',
+        title: 'Live Workout Sessions',
+        description:
+            'Experience real-time, instructor-led workout sessions from the comfort of your home. Participate in live classes covering various fitness levels and styles, ensuring you stay engaged and motivated during every workout.',
     },
     {
-        title: 'Algochurn',
-        description: 'A web app that allows users to practice for front-end and UI interviews.',
-        link: 'https://algochurn.com',
+        title: 'Nutrition Guidance',
+        description:
+            'Achieve your fitness goals with comprehensive nutrition guidance. Receive personalized meal plans and nutritional advice to complement your workout routine and optimize your overall well-being.',
     },
     {
-        title: 'Algochurn',
-        description: 'A web app that allows users to practice for front-end and UI interviews.',
-        link: 'https://algochurn.com',
+        title: 'Exercise Demos',
+        description:
+            'Access detailed demonstrations for each exercise, ensuring proper form and technique. Learn and perfect your movements with interactive videos and step-by-step instructions.',
     },
 ];
 
@@ -66,7 +63,7 @@ export const HoverEffect = () => {
                         <AnimatePresence>
                             {hoveredIndex === idx && (
                                 <motion.span
-                                    className='absolute inset-0 h-full w-full bg-slate-800/[0.8] block  rounded-3xl'
+                                    className='absolute inset-0 h-full w-full bg-slate-800/[0.6] block  rounded-3xl'
                                     layoutId='hoverBackground'
                                     initial={{ opacity: 0 }}
                                     animate={{
@@ -80,13 +77,13 @@ export const HoverEffect = () => {
                                 />
                             )}
                         </AnimatePresence>
-                        <div className=' rounded-2xl h-full w-full p-4 overflow-hidden bg-gradient-to-br from-slate-800 to-slate-800/[0.2] border border-transparent group-hover:border-slate-700 relative z-50'>
+                        <div className=' rounded-2xl h-full w-full p-4 overflow-hidden bg-slate-800/[0.8] border border-transparent group-hover:border-slate-700 relative z-50'>
                             <div className='relative z-50'>
                                 <div className='p-4 text-center'>
                                     <h4 className='text-zinc-100 font-bold tracking-wide mt-4'>
                                         {project.title}
                                     </h4>
-                                    <p className='mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm'>
+                                    <p className='mt-8 text-zinc-300 tracking-wide leading-relaxed text-sm'>
                                         {project.description}
                                     </p>
                                 </div>

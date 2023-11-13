@@ -6,7 +6,7 @@ function PageNotFound() {
             <section className=' mt-14 '>
                 <main className='grid min-h-full place-items-center px-6 py-24 sm:py-32 lg:px-8'>
                     <div className='text-center'>
-                        <p className='text-base font-semibold text-indigo-600'>404</p>
+                        <p className='text-base font-semibold text-primary-light-100'>404</p>
                         <h1 className='mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl'>
                             Page not found
                         </h1>
@@ -16,7 +16,7 @@ function PageNotFound() {
                         <div className='mt-10 flex items-center justify-center gap-x-6'>
                             <NavLink
                                 to='/'
-                                className='rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 hover:transition-all ease-in-out duration-300'
+                                className='rounded-md bg-primary-light-100 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-light-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-light-200 hover:transition-all ease-in-out duration-300'
                             >
                                 &larr; Go back home
                             </NavLink>
