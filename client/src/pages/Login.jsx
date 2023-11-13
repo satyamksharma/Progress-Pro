@@ -75,11 +75,12 @@ function Login() {
                                         Forgot password?
                                     </Link>
                                 </div>
+
                                 <button
                                     type='submit'
                                     className='w-full text-bg-dark dark:text-bg-light bg-primary-light-100 hover:bg-primary-light-200 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center '
                                 >
-                                    Sign in
+                                    <Link to='/:uId/'>Sign in</Link>
                                 </button>
                                 <p className='text-sm font-light text-gray-500 '>
                                     Don’t have an account yet?{' '}

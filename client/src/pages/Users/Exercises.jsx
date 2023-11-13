@@ -24,7 +24,7 @@ function Exercises() {
                         >
                             <div className='w-32 h-32 lg:w-48 lg:h-48 bg-gray-200 rounded-full overflow-hidden'>
                                 <img
-                                    src='https://raw.githubusercontent.com/satyamksharma/Progress-Pro/main/client/src/assets/ExercisesImg/PushUps.gif?token=GHSAT0AAAAAACJCDCVCWFK5QA6JVUQKVO5WZKP4MUA'
+                                    src='https://media2.giphy.com/media/MW9s5soksSzEreFE9h/giphy.gif?cid=ecf05e47su71l80dplco7v4xyhy1u926odhfi1f7zzpddkmw&ep=v1_gifs_search&rid=giphy.gif&ct=g'
                                     alt={exercise.Name}
                                     className='w-full h-full object-cover object-center rounded-full'
                                 />

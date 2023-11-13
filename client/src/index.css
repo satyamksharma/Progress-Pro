@@ -32,6 +32,18 @@ body::-webkit-scrollbar-thumb {
     body {
         @apply bg-bg-light dark:bg-bg-dark;
     }
-    .background {
+
+    /* calendar heatmap  */
+    .react-calendar-heatmap .color-empty {
+        fill: #cecece;
+    }
+    .react-calendar-heatmap .color-scale-1 {
+        fill: #ff9800;
+    }
+    .react-calendar-heatmap .color-scale-2 {
+        fill: #ff6d00;
+    }
+    .react-calendar-heatmap .color-scale-3 {
+        fill: #ff4500;
     }
 }
