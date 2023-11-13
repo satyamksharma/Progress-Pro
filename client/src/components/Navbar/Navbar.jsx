@@ -15,6 +15,40 @@ const Navbar = () => {
                         className=' h-16 w-fit md:h-20'
                     />
                 </Link>
+                <nav className='absolute flex flex-col md:hidden gap-y-8 md:gap-x-6 items-center justify-center h-screen w-1/2 z-50 '>
+                    <Link
+                        to='/'
+                        className='hover:text-primary-light-200 dark:hover:bg-primary-dark-100 font-pacifico '
+                    >
+                        Home
+                    </Link>
+                    <a
+                        href='#about'
+                        className='hover:text-primary-light-200 dark:hover:bg-primary-dark-100 font-pacifico '
+                    >
+                        About
+                    </a>
+                    <a
+                        href='#pricing'
+                        className='hover:text-primary-light-200 dark:hover:bg-primary-dark-100 font-pacifico '
+                    >
+                        Pricing
+                    </a>
+                    <a
+                        href='#contact'
+                        className='hover:text-primary-light-200 dark:hover:bg-primary-dark-100 font-pacifico '
+                    >
+                        Contact Us
+                    </a>
+                    <div className='flex items-center'>
+                        <Link
+                            to='/login'
+                            className=' border p-2 w-20 h-10 text-center  bg-primary-light-100 hover:bg-primary-light-200 rounded-md transition-all duration-300 ease-in-out'
+                        >
+                            Login
+                        </Link>
+                    </div>
+                </nav>
                 <nav className='hidden md:flex gap-x-4 md:gap-x-6 items-center justify-center'>
                     <Link
                         to='/'
