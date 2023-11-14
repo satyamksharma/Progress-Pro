@@ -12,8 +12,8 @@ const LOGOS = [Redbull, Adidas, CocaCola, Danone, Gilette, Nike, Nivea, Pepsi, C
 
 const Carousel = () => {
     return (
-        <div className="relative m-auto my-4  w-full overflow-hidden bg-primary-light-100 before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[8rem] before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[8rem] after:-scale-x-100 after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">
-            <div className='animate-infinite-slider flex w-[calc(16rem*15)] gap-x-6'>
+        <div className="relative m-auto py-1 md:py-3 my-4 w-full overflow-hidden bg-primary-light-100 before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[8rem] before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[8rem] after:-scale-x-100 after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">
+            <div className='animate-infinite-slider flex w-[calc(16rem*16)] md:w-[calc(16rem*18)]  gap-x-10'>
                 {LOGOS.map((logo, index) => (
                     <div
                         className='slide flex items-center justify-center '
@@ -22,7 +22,7 @@ const Carousel = () => {
                         <img
                             src={logo}
                             alt={index}
-                            className='h-20 w-full'
+                            className='h-24 w-full'
                         />
                     </div>
                 ))}
@@ -34,7 +34,7 @@ const Carousel = () => {
                         <img
                             src={logo}
                             alt={index}
-                            className='h-20 w-full'
+                            className='h-24 w-full'
                         />
                     </div>
                 ))}
@@ -46,7 +46,7 @@ const Carousel = () => {
                         <img
                             src={logo}
                             alt={index}
-                            className='h-20 w-full'
+                            className='h-24 w-full'
                         />
                     </div>
                 ))}
@@ -58,7 +58,7 @@ const Carousel = () => {
                         <img
                             src={logo}
                             alt={index}
-                            className='h-20 w-full'
+                            className='h-24 w-full'
                         />
                     </div>
                 ))}

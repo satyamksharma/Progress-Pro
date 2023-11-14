@@ -11,15 +11,15 @@ function UserNavbar() {
 
     return (
         <nav className='fixed  w-screen bg-bg-light dark:bg-bg-dark'>
-            <div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4'>
-                <div className='flex items-center space-x-3 rtl:space-x-reverse'>
+            <div className='flex flex-wrap items-center justify-between mx-auto px-2'>
+                <div className='flex items-center space-x-1 '>
                     <img
                         src={logo}
                         className='h-16'
                         alt='Logo'
                     />
                 </div>
-                <div className='md:hidden flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse'>
+                <div className='md:hidden flex items-center  '>
                     <button
                         type='button'
                         className='flex text-sm bg-bg-dark rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600'
@@ -109,7 +109,7 @@ function UserNavbar() {
                     }`}
                     id='navbar-user'
                 >
-                    <ul className='flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg font-pacifico bg-bg-light md:space-x-6 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-bg-light dark:bg-bg-dark md:dark:bg-bg-dark dark:border-gray-700'>
+                    <ul className='flex flex-col font-medium text-lg p-4 md:p-0 mt-4 border border-gray-100 rounded-lg font-pacifico bg-bg-light md:space-x-6 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-bg-light dark:bg-bg-dark md:dark:bg-bg-dark dark:border-gray-700'>
                         <li>
                             <Link
                                 to='/:uId/'
