@@ -42,13 +42,39 @@ const Dashboard = () => {
                         />
                     </div>
                 </div>
-                <div className=''>
-                    Datas{' '}
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, accusamus
-                        similique! Amet alias doloremque esse laboriosam quas, ducimus possimus non,
-                        sed nostrum rem explicabo modi ullam repudiandae aut doloribus fugit?
-                    </p>
+                <div className='flex flex-col sm:flex-row justify-center items-center mb-16'>
+                    <div className=' grid grid-cols-1 ss:grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-4 justify-center items-center'>
+                        <div className='w-48 h-48 border border-green-400 rounded-lg shadow-md hover:shadow-xl'>
+                            <h3 className='h-1/3 bg-green-600 text-bg-light flex items-center justify-center text-xl rounded-t-lg'>
+                                Total Workout
+                            </h3>
+                            <p className='h-2/3 flex justify-center items-center text-4xl'>
+                                122 Hours
+                            </p>
+                        </div>
+                        <div className='w-48 h-48 border border-violet-400 rounded-lg shadow-md hover:shadow-xl'>
+                            <h3 className='h-1/3 bg-violet-600 text-bg-light flex items-center justify-center text-xl rounded-t-lg'>
+                                Days Active
+                            </h3>
+                            <p className='h-2/3 flex justify-center items-center text-4xl'>
+                                76 Days
+                            </p>
+                        </div>
+                        <div className='w-48 h-48 border border-sky-400 rounded-lg shadow-md hover:shadow-xl'>
+                            <h3 className='h-1/3 bg-sky-600 text-bg-light flex items-center justify-center text-xl rounded-t-lg'>
+                                Daily Goal
+                            </h3>
+                            <p className='h-2/3 flex justify-center items-center text-4xl'>
+                                2 Hours
+                            </p>
+                        </div>
+                        <div className='w-48 h-48 border border-red-400 rounded-lg shadow-md hover:shadow-xl'>
+                            <h3 className='h-1/3 bg-red-600 text-bg-light flex items-center justify-center text-xl rounded-t-lg'>
+                                Target Achieved
+                            </h3>
+                            <p className='h-2/3 flex justify-center items-center text-4xl'>73%</p>
+                        </div>
+                    </div>
                 </div>
                 <div className='overflow-x-scroll mx-auto w-[80vw] md:w-full'>
                     <Calendar markedDates={markedDates} />
