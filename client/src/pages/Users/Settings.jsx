@@ -20,8 +20,10 @@ function Settings() {
                     // User setting update form
                     <div className='flex flex-col md:flex-row justify-center items-center md:justify-evenly'>
                         {/* User login credentials update form */}
-                        <div className='p-2 mt-4 ss:p-6 md:p-20 ss:w-1/2 text-sm sm:text-xl'>
-                            <h2 className='text-lg md:text-2xl'>Update Login Credentials</h2>
+                        <div className='p-2 py-4  ss:p-6 ss:py-8 md:px-20 md:py-10 ss:w-1/2 text-sm sm:text-xl'>
+                            <h2 className='text-lg md:text-2xl mb-4 sm:mb-10'>
+                                Update Login Credentials
+                            </h2>
                             <form
                                 action=''
                                 method='post'
@@ -57,11 +59,19 @@ function Settings() {
                                         className='outline-none border border-gray-300 rounded-md p-2 focus:border-primary-light-100 focus:ring-2 focus:ring-primary-light-100'
                                     />
                                 </div>
+                                <button
+                                    type='submit'
+                                    className=' border p-2 px-6 text-center  bg-primary-light-100 hover:bg-primary-light-200 rounded-md transition-all duration-300 ease-in-out'
+                                >
+                                    Update..
+                                </button>
                             </form>
                         </div>
                         {/* User profile details update form */}
-                        <div className='p-2 mt-4 ss:p-6 md:p-20 ss:w-1/2 text-sm sm:text-xl'>
-                            <h2 className='text-lg md:text-2xl'>Update User Credentials</h2>
+                        <div className='p-2  ss:p-6 md:p-20 ss:w-1/2 text-sm sm:text-xl'>
+                            <h2 className='text-lg md:text-2xl mb-4 sm:mb-10'>
+                                Update User Credentials
+                            </h2>
                             <form
                                 action=''
                                 method='post'
@@ -97,66 +107,67 @@ function Settings() {
                                         className='outline-none border border-gray-300 rounded-md p-2 focus:border-primary-light-100 focus:ring-2 focus:ring-primary-light-100 ml-6 sm:ml-auto'
                                     />
                                 </div>
+                                <button
+                                    type='submit'
+                                    className=' border p-2 px-6 text-center  bg-primary-light-100 hover:bg-primary-light-200 rounded-md transition-all duration-300 ease-in-out'
+                                >
+                                    Update..
+                                </button>
                             </form>
                         </div>
                     </div>
                 ) : (
                     // Exercise setting update form
-                    <div className='flex flex-col md:flex-row justify-center md:justify-evenly'>
-                        <div className='p-10 md:p-20 w-1/2'>
-                            <h2 className=''>Update User Credentials</h2>
+                    <div className='flex flex-col md:flex-row justify-center  items-center'>
+                        <div className='p-2 py-4  ss:p-6 ss:py-8 md:px-20 md:py-10 ss:w-1/2 text-sm sm:text-xl w-full flex flex-col items-center'>
+                            <h2 className='text-xl'>Update Exercise Settings</h2>
                             <form
                                 action=''
                                 method='post'
                             >
-                                <div className='flex justify-between items-center m-2 md:m-4'>
-                                    <label htmlFor='name'>Name</label>
+                                <div className='flex justify-between  items-center m-2 md:m-4 w-full'>
+                                    <label htmlFor='workout'>Workout Duration</label>
                                     <input
-                                        type='text'
-                                        name='name'
-                                        id='name'
-                                        placeholder='Name'
-                                        className='outline-none border border-gray-300 rounded-md p-2 focus:border-primary-light-100 focus:ring-2 focus:ring-primary-light-100'
+                                        type='number'
+                                        id='workout'
+                                        name='workout'
+                                        min='30'
+                                        max='120'
+                                        placeholder='In Minutes...'
+                                        className='outline-none border border-gray-300 rounded-md p-2 focus:border-primary-light-100 focus:ring-2 focus:ring-primary-light-100  w-64'
                                     />
                                 </div>
-                                <div className='flex justify-between m-2 md:m-4'>
-                                    <label htmlFor='email'>Email</label>
+                                <div className='flex justify-between  items-center m-2 md:m-4 w-full'>
+                                    <label htmlFor='exercise'>Exercise Duration</label>
                                     <input
-                                        type='email'
-                                        name='email'
-                                        id='email'
-                                        placeholder='Email'
-                                        className='outline-none border border-gray-300 rounded-md p-2 focus:border-primary-light-100 focus:ring-2 focus:ring-primary-light-100'
+                                        type='number'
+                                        id='exercise'
+                                        name='exercise'
+                                        min='30'
+                                        max='60'
+                                        placeholder='In Seconds...'
+                                        className='outline-none border border-gray-300 rounded-md p-2 focus:border-primary-light-100 focus:ring-2 focus:ring-primary-light-100  w-64'
                                     />
                                 </div>
-                                <div className='flex justify-between m-2 md:m-4'>
-                                    <label htmlFor='password'>Password</label>
+                                <div className='flex justify-between  items-center m-2 md:m-4 w-full'>
+                                    <label htmlFor='rest'>Rest Duration</label>
                                     <input
-                                        type='password'
-                                        name='password'
-                                        id='password'
-                                        placeholder='Password'
-                                        className='outline-none border border-gray-300 rounded-md p-2 focus:border-primary-light-100 focus:ring-2 focus:ring-primary-light-100'
+                                        type='number'
+                                        id='rest'
+                                        name='rest'
+                                        min='10'
+                                        max='30'
+                                        placeholder='In Seconds...'
+                                        className='outline-none border border-gray-300 rounded-md p-2 focus:border-primary-light-100 focus:ring-2 focus:ring-primary-light-100  w-64'
                                     />
                                 </div>
-                                <div className='flex justify-between m-2 md:m-4'>
-                                    <label htmlFor='confirmPassword'>Confirm Password</label>
-                                    <input
-                                        type='password'
-                                        name='confirmPassword'
-                                        id='confirmPassword'
-                                        placeholder='Confirm Password'
-                                        className='outline-none border border-gray-300 rounded-md p-2 focus:border-primary-light-100 focus:ring-2 focus:ring-primary-light-100'
-                                    />
-                                </div>
+                                <button
+                                    type='submit'
+                                    className=' border p-2 px-6 text-center  bg-primary-light-100 hover:bg-primary-light-200 rounded-md transition-all duration-300 ease-in-out'
+                                >
+                                    Update..
+                                </button>
                             </form>
-                        </div>
-                        <div className='w-1/2'>
-                            <h2 className=''>Update Profile Details</h2>
-                            <form
-                                action=''
-                                method='post'
-                            ></form>
                         </div>
                     </div>
                 )}
