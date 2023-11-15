@@ -10,8 +10,18 @@ function Settings() {
                 {/* navbar */}
                 <div className='w-full px-10 md:px-12'>
                     <ul className='flex gap-x-8 font-pacifico justify-center text-lg md:text-2xl'>
-                        <li onClick={() => setIsUser(true)}>User</li>
-                        <li onClick={() => setIsUser(false)}>Exercise</li>
+                        <li
+                            className='cursor-pointer hover:text-primary-light-100 active:text-primary-light-100'
+                            onClick={() => setIsUser(true)}
+                        >
+                            User
+                        </li>
+                        <li
+                            className='cursor-pointer hover:text-primary-light-100 active:text-primary-light-100'
+                            onClick={() => setIsUser(false)}
+                        >
+                            Exercise
+                        </li>
                     </ul>
                 </div>
                 {/* Main BODY */}
