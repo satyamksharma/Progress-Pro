@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import logo from '../../assets/logo.png';
+import userAvatar from '../../assets/Profile_Avatar.png';
 import { Link } from 'react-router-dom';
 
 function UserNavbar() {
@@ -29,7 +30,7 @@ function UserNavbar() {
                     >
                         <img
                             className='w-8 h-8 rounded-full'
-                            src='/docs/images/people/profile-picture-3.jpg'
+                            src={userAvatar}
                             alt='user photo'
                         />
                     </button>
@@ -147,7 +148,14 @@ function UserNavbar() {
                             </Link>
                         </li>
                     </ul>
-                    <div className='flex mx-4 ml-16 items-center'>
+                    <div className='flex items-center space-x-1 ml-4 '>
+                        <img
+                            className='w-12 h-12 rounded-full'
+                            src={userAvatar}
+                            alt='user photo'
+                        />
+                    </div>
+                    <div className='flex mx-4 ml-10 items-center'>
                         <Link
                             to='/'
                             className=' border p-2 w-20 h-10 text-center  bg-primary-light-100 hover:bg-primary-light-200 rounded-md transition-all duration-300 ease-in-out'
