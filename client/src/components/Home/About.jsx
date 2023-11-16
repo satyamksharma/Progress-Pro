@@ -1,3 +1,10 @@
+import { CiDumbbell } from 'react-icons/ci';
+import { PiNotePencilDuotone } from 'react-icons/pi';
+import { TfiHeadphoneAlt } from 'react-icons/tfi';
+import { RiLiveLine } from 'react-icons/ri';
+import { MdOutlineSportsGymnastics } from 'react-icons/md';
+import { IoNutritionOutline } from 'react-icons/io5';
+
 const About = () => {
     return (
         <section
@@ -19,31 +26,37 @@ export const projects = [
         title: 'Personalized Workouts',
         description:
             "Tailor your exercise routine to meet your fitness goals with personalized workout plans. Whether you're aiming for strength, endurance, or flexibility, our app adapts to your needs.",
+        icon: <PiNotePencilDuotone className='text-4xl text-zinc-100' />,
     },
     {
         title: 'Progress Tracking',
         description:
             'Stay motivated by tracking your fitness journey. Monitor your progress, set achievable milestones, and celebrate your accomplishments as you work towards a healthier and stronger you.',
+        icon: <CiDumbbell className='text-4xl text-zinc-100' />,
     },
     {
         title: 'Community Support',
         description:
             'Join a thriving fitness community where you can connect with like-minded individuals, share achievements, and find inspiration. Foster a sense of accountability and encouragement on your fitness path.',
+        icon: <TfiHeadphoneAlt className='text-4xl text-zinc-100' />,
     },
     {
         title: 'Live Workout Sessions',
         description:
             'Experience real-time, instructor-led workout sessions from the comfort of your home. Participate in live classes covering various fitness levels and styles, ensuring you stay engaged and motivated during every workout.',
+        icon: <RiLiveLine className='text-4xl text-zinc-100' />,
     },
     {
         title: 'Nutrition Guidance',
         description:
             'Achieve your fitness goals with comprehensive nutrition guidance. Receive personalized meal plans and nutritional advice to complement your workout routine and optimize your overall well-being.',
+        icon: <IoNutritionOutline className='text-4xl text-zinc-100' />,
     },
     {
         title: 'Exercise Demos',
         description:
             'Access detailed demonstrations for each exercise, ensuring proper form and technique. Learn and perfect your movements with interactive videos and step-by-step instructions.',
+        icon: <MdOutlineSportsGymnastics className='text-4xl text-zinc-100' />,
     },
 ];
 
@@ -80,10 +93,10 @@ export const HoverEffect = () => {
                         <div className=' rounded-2xl h-full w-full p-4 overflow-hidden bg-slate-800/[0.8] border border-transparent group-hover:border-slate-700 relative z-50'>
                             <div className='relative z-50'>
                                 <div className='p-4 text-center'>
-                                    <h4 className='text-zinc-100 font-bold tracking-wide mt-4'>
-                                        {project.title}
+                                    <h4 className='text-zinc-100 flex flex-col items-center font-bold tracking-wide mt-4'>
+                                        {project.icon} {project.title}
                                     </h4>
-                                    <p className='mt-8 text-zinc-300 tracking-wide leading-relaxed text-sm'>
+                                    <p className='mt-6 text-zinc-300 tracking-wide leading-relaxed text-sm'>
                                         {project.description}
                                     </p>
                                 </div>
