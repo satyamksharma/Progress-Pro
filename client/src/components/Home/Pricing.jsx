@@ -21,7 +21,7 @@ const Pricing = () => {
                             Best option for personal use & for your next project.
                         </p>
                         <div className='flex justify-center items-baseline my-8'>
-                            <span className='mr-2 text-3xl font-extrabold'>$29</span>
+                            <span className='mr-2 text-3xl font-extrabold'>$0</span>
                             <span className='text-gray-500 dark:text-gray-400'>/month</span>
                         </div>
                         <ul
@@ -118,12 +118,12 @@ const Pricing = () => {
                         </a>
                     </div>
                     <div className='flex flex-col p-4 mx-auto w-80 h-[34rem] text-center text-bg-dark bg-bg-light rounded-lg border border-transparent  shadow-xl xl:p-6 dark:bg-gray-800 dark:text-white hover:border-primary-light-200'>
-                        <h3 className='mb-2 text-2xl font-semibold'>Free</h3>
+                        <h3 className='mb-2 text-2xl font-semibold'>Plus</h3>
                         <p className='font-light text-gray-500 sm:text-md dark:text-gray-400'>
                             Best option for personal use & for your next project.
                         </p>
                         <div className='flex justify-center items-baseline my-8'>
-                            <span className='mr-2 text-3xl font-extrabold'>$29</span>
+                            <span className='mr-2 text-3xl font-extrabold'>$15</span>
                             <span className='text-gray-500 dark:text-gray-400'>/month</span>
                         </div>
                         <ul
@@ -220,7 +220,7 @@ const Pricing = () => {
                         </a>
                     </div>
                     <div className='flex flex-col p-4 mx-auto w-72 h-[30rem] text-center text-bg-dark bg-bg-light rounded-lg border border-transparent shadow-xl xl:p-6 dark:bg-gray-800 dark:text-white hover:border-primary-light-200'>
-                        <h3 className='mb-2 text-2xl font-semibold'>Free</h3>
+                        <h3 className='mb-2 text-2xl font-semibold'>Pro</h3>
                         <p className='font-light text-gray-500 sm:text-md dark:text-gray-400'>
                             Best option for personal use & for your next project.
                         </p>
