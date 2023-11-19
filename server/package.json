@@ -1,23 +1,26 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-env NODE_ENV=production node index.js",
-    "dev": "cross-env NODE_ENV=development nodemon index.js"
-  },
-  "author": "Sarthak S Kumar",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.4.0",
-    "cors": "^2.8.5",
-    "cross-env": "^7.0.3",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mysql2": "^3.3.1",
-    "node-cron": "^3.0.2",
-    "nodemon": "^3.0.1"
-  }
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "author": "Satyam Kumar",
+    "license": "ISC",
+    "devDependencies": {
+        "mongoose": "^8.0.1",
+        "uuid": "^9.0.1"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "express-validator": "^7.0.1",
+        "jsonwebtoken": "^9.0.2",
+        "mongodb": "^6.3.0",
+        "mongoose-unique-validator": "^4.0.0"
+    }
 }

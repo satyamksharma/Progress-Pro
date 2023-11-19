@@ -1,348 +1,348 @@
 [
     {
-        "id": 1,
+        "id": "ex1",
         "Image": "../ExerciseImg/PushUps.gif",
         "Name": "Pushups",
         "Type": "Bodyweight"
     },
     {
-        "id": 2,
+        "id": "ex2",
         "Image": "",
         "Name": "Arnold Press",
         "Type": "Dumbbell"
     },
     {
-        "id": 3,
+        "id": "ex3",
         "Image": "",
         "Name": "Squats",
         "Type": "Bodyweight"
     },
     {
-        "id": 4,
+        "id": "ex4",
         "Image": "",
         "Name": "Lunges",
         "Type": "Bodyweight"
     },
     {
-        "id": 5,
+        "id": "ex5",
         "Image": "",
         "Name": "Bicep Curls",
         "Type": "Dumbbell"
     },
     {
-        "id": 6,
+        "id": "ex6",
         "Image": "",
         "Name": "Tricep Extensions",
         "Type": "Dumbbell"
     },
     {
-        "id": 7,
+        "id": "ex7",
         "Image": "",
         "Name": "Shoulder Press",
         "Type": "Dumbbell"
     },
     {
-        "id": 8,
+        "id": "ex8",
         "Image": "",
         "Name": "Deadlifts",
         "Type": "Dumbbell"
     },
     {
-        "id": 9,
+        "id": "ex9",
         "Image": "",
         "Name": "Plank",
         "Type": "Bodyweight"
     },
     {
-        "id": 10,
+        "id": "ex10",
         "Image": "",
         "Name": "Sit-ups",
         "Type": "Bodyweight"
     },
     {
-        "id": 11,
+        "id": "ex11",
         "Image": "",
         "Name": "Crunches",
         "Type": "Bodyweight"
     },
     {
-        "id": 12,
+        "id": "ex12",
         "Image": "",
         "Name": "Russian Twists",
         "Type": "Bodyweight"
     },
     {
-        "id": 13,
+        "id": "ex13",
         "Image": "",
         "Name": "Leg Raises",
         "Type": "Bodyweight"
     },
     {
-        "id": 14,
+        "id": "ex14",
         "Image": "",
         "Name": "Flutter Kicks",
         "Type": "Bodyweight"
     },
     {
-        "id": 15,
+        "id": "ex15",
         "Image": "",
         "Name": "Jumping Jacks",
         "Type": "Bodyweight"
     },
     {
-        "id": 16,
+        "id": "ex16",
         "Image": "",
         "Name": "Mountain Climbers",
         "Type": "Bodyweight"
     },
     {
-        "id": 17,
+        "id": "ex17",
         "Image": "",
         "Name": "Burpees",
         "Type": "Bodyweight"
     },
     {
-        "id": 18,
+        "id": "ex18",
         "Image": "",
         "Name": "Pull-ups",
         "Type": "Bodyweight"
     },
     {
-        "id": 19,
+        "id": "ex19",
         "Image": "",
         "Name": "Chin-ups",
         "Type": "Bodyweight"
     },
     {
-        "id": 20,
+        "id": "ex20",
         "Image": "",
         "Name": "Dips",
         "Type": "Bodyweight"
     },
     {
-        "id": 21,
+        "id": "ex21",
         "Image": "",
         "Name": "Incline Bench Press",
         "Type": "Dumbbell"
     },
     {
-        "id": 22,
+        "id": "ex22",
         "Image": "",
         "Name": "Decline Bench Press",
         "Type": "Dumbbell"
     },
     {
-        "id": 23,
+        "id": "ex23",
         "Image": "",
         "Name": "Flat Bench Press",
         "Type": "Dumbbell"
     },
     {
-        "id": 24,
+        "id": "ex24",
         "Image": "",
         "Name": "Flys",
         "Type": "Dumbbell"
     },
     {
-        "id": 25,
+        "id": "ex25",
         "Image": "",
         "Name": "Hammer Curls",
         "Type": "Dumbbell"
     },
     {
-        "id": 26,
+        "id": "ex26",
         "Image": "",
         "Name": "Reverse Curls",
         "Type": "Dumbbell"
     },
     {
-        "id": 27,
+        "id": "ex27",
         "Image": "",
         "Name": "Skull Crushers",
         "Type": "Dumbbell"
     },
     {
-        "id": 28,
+        "id": "ex28",
         "Image": "",
         "Name": "Bent Over Rows",
         "Type": "Dumbbell"
     },
     {
-        "id": 29,
+        "id": "ex29",
         "Image": "",
         "Name": "Upright Rows",
         "Type": "Dumbbell"
     },
     {
-        "id": 30,
+        "id": "ex30",
         "Image": "",
         "Name": "Shrugs",
         "Type": "Dumbbell"
     },
     {
-        "id": 31,
+        "id": "ex31",
         "Image": "",
         "Name": "Side Lateral Raises",
         "Type": "Dumbbell"
     },
     {
-        "id": 32,
+        "id": "ex32",
         "Image": "",
         "Name": "Front Lateral Raises",
         "Type": "Dumbbell"
     },
     {
-        "id": 33,
+        "id": "ex33",
         "Image": "",
         "Name": "Bent Over Rear Delt Raises",
         "Type": "Dumbbell"
     },
     {
-        "id": 34,
+        "id": "ex34",
         "Image": "",
         "Name": "Calf Raises",
         "Type": "Bodyweight"
     },
     {
-        "id": 35,
+        "id": "ex35",
         "Image": "",
         "Name": "Leg Press",
         "Type": "Dumbbell"
     },
     {
-        "id": 36,
+        "id": "ex36",
         "Image": "",
         "Name": "Leg Curls",
         "Type": "Dumbbell"
     },
     {
-        "id": 37,
+        "id": "ex37",
         "Image": "",
         "Name": "Leg Extensions",
         "Type": "Dumbbell"
     },
     {
-        "id": 38,
+        "id": "ex38",
         "Image": "",
         "Name": "Seated Rows",
         "Type": "Dumbbell"
     },
     {
-        "id": 39,
+        "id": "ex39",
         "Image": "",
         "Name": "Lat Pulldowns",
         "Type": "Dumbbell"
     },
     {
-        "id": 40,
+        "id": "ex40",
         "Image": "",
         "Name": "Cable Rows",
         "Type": "Dumbbell"
     },
     {
-        "id": 41,
+        "id": "ex41",
         "Image": "",
         "Name": "Cable Curls",
         "Type": "Dumbbell"
     },
     {
-        "id": 42,
+        "id": "ex42",
         "Image": "",
         "Name": "Cable Tricep Extensions",
         "Type": "Dumbbell"
     },
     {
-        "id": 43,
+        "id": "ex43",
         "Image": "",
         "Name": "Cable Flys",
         "Type": "Dumbbell"
     },
     {
-        "id": 44,
+        "id": "ex44",
         "Image": "",
         "Name": "Cable Crunches",
         "Type": "Dumbbell"
     },
     {
-        "id": 45,
+        "id": "ex45",
         "Image": "",
         "Name": "Cable Leg Curls",
         "Type": "Dumbbell"
     },
     {
-        "id": 46,
+        "id": "ex46",
         "Image": "",
         "Name": "Cable Leg Extensions",
         "Type": "Dumbbell"
     },
     {
-        "id": 47,
+        "id": "ex47",
         "Image": "",
         "Name": "Cable Calf Raises",
         "Type": "Dumbbell"
     },
     {
-        "id": 48,
+        "id": "ex48",
         "Image": "",
         "Name": "Stretching Hamstrings",
         "Type": "Stretching"
     },
     {
-        "id": 49,
+        "id": "ex49",
         "Image": "",
         "Name": "Stretching Quads",
         "Type": "Stretching"
     },
     {
-        "id": 50,
+        "id": "ex50",
         "Image": "",
         "Name": "Stretching Calves",
         "Type": "Stretching"
     },
     {
-        "id": 51,
+        "id": "ex51",
         "Image": "",
         "Name": "Stretching Shoulders",
         "Type": "Stretching"
     },
     {
-        "id": 52,
+        "id": "ex52",
         "Image": "",
         "Name": "Stretching Chest",
         "Type": "Stretching"
     },
     {
-        "id": 53,
+        "id": "ex53",
         "Image": "",
         "Name": "Stretching Back",
         "Type": "Stretching"
     },
     {
-        "id": 54,
+        "id": "ex54",
         "Image": "",
         "Name": "Stretching Triceps",
         "Type": "Stretching"
     },
     {
-        "id": 55,
+        "id": "ex55",
         "Image": "",
         "Name": "Stretching Biceps",
         "Type": "Stretching"
     },
     {
-        "id": 56,
+        "id": "ex56",
         "Image": "",
         "Name": "Stretching Neck",
         "Type": "Stretching"
     },
     {
-        "id": 57,
+        "id": "ex57",
         "Image": "",
         "Name": "Stretching Groin",
         "Type": "Stretching"
     },
     {
-        "id": 58,
+        "id": "ex58",
         "Image": "",
         "Name": "Stretching Hips",
         "Type": "Stretching"
