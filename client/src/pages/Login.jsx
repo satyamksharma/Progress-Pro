@@ -16,14 +16,14 @@ function Login() {
                 email: e.target.email.value,
                 password: e.target.password.value,
             });
-            console.log(response.data);
-
-            if (response.data.user) {
+            if (response.status === 200) {
                 window.location.href = '/dashboard';
+            } else {
+                throw new Error(response.data.message || 'Something went wrong');
             }
-            setIsLoading(false);
         } catch (err) {
             setIsLoading(false);
+            console.error(err);
         }
     };
     return (
