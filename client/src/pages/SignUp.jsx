@@ -10,7 +10,7 @@ function SignUp() {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:5000/api/users/signup', {
+            const response = await axios.post('http://localhost:5000/api/user/signup', {
                 name: e.target.name.value,
                 email: e.target.email.value,
                 password: e.target.password.value,
@@ -19,9 +19,7 @@ function SignUp() {
                 weight: e.target.weight.value,
                 gender: e.target.gender.value,
             });
-
-            const responseData = await response.json();
-            console.log(responseData);
+            console.log(response.data);
         } catch (err) {
             console.log(err);
         }
@@ -88,22 +86,7 @@ function SignUp() {
                                         required=''
                                     />
                                 </div>
-                                <div>
-                                    <label
-                                        htmlFor='confirm-password'
-                                        className='block mb-1 text-sm font-medium text-gray-900 dark:text-white'
-                                    >
-                                        Confirm password
-                                    </label>
-                                    <input
-                                        type='password'
-                                        name='confirm-password'
-                                        id='confirm-password'
-                                        placeholder='••••••••'
-                                        className='bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full py-1 px-2 md:p-2.5  '
-                                        required=''
-                                    />
-                                </div>
+
                                 <div className='flex gap-x-2'>
                                     <div>
                                         <label
