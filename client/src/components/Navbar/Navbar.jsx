@@ -13,9 +13,10 @@ const Navbar = () => {
                 <Backdrop
                     isOpen={isOpen}
                     setIsOpen={setisOpen}
+                    zindex={30}
                 />
             )}
-            <div className='fixed flex flex-1 w-screen px-6 pr-3 md:px-32  bg-bg-light dark:bg-bg-dark z-50'>
+            <div className='fixed flex flex-1 w-screen px-6 pr-3 md:px-32  bg-bg-light dark:bg-bg-dark z-40'>
                 <div className='w-full flex justify-end px-4 md:justify-between '>
                     <Link
                         to='/'

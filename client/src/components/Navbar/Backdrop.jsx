@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom';
-const Backdrop = ({ isOpen, setIsOpen }) => {
+const Backdrop = (props) => {
     return ReactDOM.createPortal(
         <div
-            className='bg-black/[0.5] fixed z-40 w-full h-full'
-            onClick={() => setIsOpen(!isOpen)}
+            className={`bg-black/[0.5] fixed w-full h-full z-${props.zindex}`}
+            onClick={() => props.setIsOpen(!props.isOpen)}
         ></div>,
         document.getElementById('backdrop')
     );

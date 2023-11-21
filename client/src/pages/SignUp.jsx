@@ -3,13 +3,17 @@ import { useState } from 'react';
 import axios from 'axios';
 
 import Navbar from '../components/Navbar/Navbar';
+import Loader from '../components/Loader';
 
 function SignUp() {
+    const [isLoding, setIsLoading] = useState(false);
     const [isChecked, setIsChecked] = useState(true);
     const submitHandler = async (e) => {
         e.preventDefault();
 
         try {
+            setIsLoading(true);
+
             const response = await axios.post('http://localhost:5000/api/user/signup', {
                 name: e.target.name.value,
                 email: e.target.email.value,
@@ -20,14 +24,21 @@ function SignUp() {
                 gender: e.target.gender.value,
             });
             console.log(response.data);
+            if (response.data.user) {
+                setIsLoading(false);
+
+                window.location.href = '/dashboard';
+            }
         } catch (err) {
             console.log(err);
+            setIsLoading(false);
         }
     };
     return (
         <>
             <Navbar />
             <section className='bg-bg-light dark:bg-bg-dark '>
+                {isLoding && <Loader />}
                 <div className='flex flex-col items-center justify-center pt-16 px-6 py-4 mx-auto h-screen lg:py-0'>
                     <div className='w-full  rounded-lg shadow mt-1  md:mt-0 sm:max-w-md xl:p-0 '>
                         <div className='p-6  space-y-2 md:space-y-6 sm:p-8'>
