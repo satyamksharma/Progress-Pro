@@ -11,7 +11,7 @@ function UserNavbar() {
     };
 
     return (
-        <nav className='fixed  w-screen bg-bg-light dark:bg-bg-dark'>
+        <nav className='fixed  w-screen bg-bg-light dark:bg-bg-dark z-50'>
             <div className='flex flex-wrap items-center justify-between mx-auto px-2'>
                 <div className='flex items-center space-x-1 '>
                     <img

@@ -22,11 +22,11 @@ function Exercises() {
                             key={exercise.id}
                             className='flex flex-col justify-center items-center gap-y-2 my-4'
                         >
-                            <div className='w-32 h-32 lg:w-48 lg:h-48 bg-gray-200 rounded-full overflow-hidden'>
+                            <div className='w-32 h-32 lg:w-48 lg:h-48 bg-gray-200 rounded-full overflow-hidden border-2 border-spacing-4 border-primary-light-100 hover:scale-105 transition-all duration-150 ease-in-out'>
                                 <img
-                                    src='https://media2.giphy.com/media/MW9s5soksSzEreFE9h/giphy.gif?cid=ecf05e47su71l80dplco7v4xyhy1u926odhfi1f7zzpddkmw&ep=v1_gifs_search&rid=giphy.gif&ct=g'
+                                    src={exercise.Image}
                                     alt={exercise.Name}
-                                    className='w-full h-full object-cover object-center rounded-full'
+                                    className='w-full h-full object-cover object-center rounded-full scale-105'
                                 />
                             </div>
                             <p className=' text-lg md:text-xl'>{exercise.Name}</p>

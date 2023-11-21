@@ -1,350 +1,296 @@
 [
     {
         "id": "ex1",
-        "Image": "../ExerciseImg/PushUps.gif",
-        "Name": "Pushups",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=1kOoBq1e6PNySUjwaBOG-DDL0HDurqkVt",
+        "Name": "Abs Stretch",
+        "Type": "Stretching"
     },
     {
         "id": "ex2",
-        "Image": "",
-        "Name": "Arnold Press",
+        "Image": "https://drive.google.com/uc?id=12bYcHlNlNfTHzgWXujhvuCsRQY8WErbl",
+        "Name": "Alternate Dumbbell Curl",
         "Type": "Dumbbell"
     },
     {
         "id": "ex3",
-        "Image": "",
-        "Name": "Squats",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=11sQoBN9wLslYdTK0vPXj_p1mX06aGK5f",
+        "Name": "Arnold Press",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex4",
-        "Image": "",
-        "Name": "Lunges",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=1Q8EYJsZPJ_eJEFIC2xPYU-iv8zBj_Qhm",
+        "Name": "Barbell Hand Weightlift ",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex5",
-        "Image": "",
-        "Name": "Bicep Curls",
+        "Image": "https://drive.google.com/uc?id=1tjbWBasv1RDmdgl0zDJXO3YW-3JHkx4b",
+        "Name": "Barbell Scull Crusher",
         "Type": "Dumbbell"
     },
     {
         "id": "ex6",
-        "Image": "",
-        "Name": "Tricep Extensions",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1g8EFlfitFyvobLU-LdCZX0yzs86WHIvc",
+        "Name": "Bicycle Crunches",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex7",
-        "Image": "",
-        "Name": "Shoulder Press",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1JTLZqYn4oH86-89u5vbtpl73S_0QE2zB",
+        "Name": "Butterfly Stretch",
+        "Type": "Stretching"
     },
     {
         "id": "ex8",
-        "Image": "",
-        "Name": "Deadlifts",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1A9VCEfmcVzaRpznPWBDmZAEJRcV-_wVR",
+        "Name": "Chest and Shoulder Stretch",
+        "Type": "Stretching"
     },
     {
         "id": "ex9",
-        "Image": "",
-        "Name": "Plank",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=1Wfk6VliRCB9r3MOHwjDBpO1-2RGiZB_-",
+        "Name": "Closegrip dumbbell press",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex10",
-        "Image": "",
-        "Name": "Sit-ups",
-        "Type": "Bodyweight"
-    },
-    {
-        "id": "ex11",
-        "Image": "",
+        "Image": "https://drive.google.com/uc?id=1YgCg0Qo4wZZHB2799AJEFM_TmQajjAGF",
         "Name": "Crunches",
         "Type": "Bodyweight"
     },
     {
-        "id": "ex12",
-        "Image": "",
-        "Name": "Russian Twists",
+        "id": "ex11",
+        "Image": "https://drive.google.com/uc?id=1-ZZJAnT7Sjd60Zj31UjXWTweoWF7R3VV",
+        "Name": "Diamond Pushups",
         "Type": "Bodyweight"
+    },
+    {
+        "id": "ex12",
+        "Image": "https://drive.google.com/uc?id=1QWj8ycg2sydMv9JR8N2sdxDmn_wNjjRx",
+        "Name": "Double Arm Extension",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex13",
-        "Image": "",
-        "Name": "Leg Raises",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=1dEpvwSjmWysfoJGB9s55_tTUoyKl5BVI",
+        "Name": "Dumbbell Curls",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex14",
-        "Image": "",
-        "Name": "Flutter Kicks",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=16Q48pImHIWyCXv_pujwFYemMIaqKDVYK",
+        "Name": "Dumbbell Abs Workout",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex15",
-        "Image": "",
-        "Name": "Jumping Jacks",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=1asbNN7Bb0Imq5us-YLHxccx6J7oLXIUF",
+        "Name": "Dumbbell Lunges",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex16",
-        "Image": "",
-        "Name": "Mountain Climbers",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=14qce6IL6mHsbbDxrg8KonR-MlTEqykfZ",
+        "Name": "Dumbbell Pullover",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex17",
-        "Image": "",
-        "Name": "Burpees",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=1BnJHm2Hyr2W2rRkhSolF8h_1azAH2r26",
+        "Name": "Dumbbell rear lateral raise",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex18",
-        "Image": "",
-        "Name": "Pull-ups",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=1yl1kZ1JxTBu0PVYvu7ae7g_iToovdr7B",
+        "Name": "Dumbbell Scull Crusher",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex19",
-        "Image": "",
-        "Name": "Chin-ups",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=1fhuyKURQD-UiCQDIBbfViGHT6QgNKshP",
+        "Name": "Dumbbell Squat",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex20",
-        "Image": "",
-        "Name": "Dips",
-        "Type": "Bodyweight"
+        "Image": "https://drive.google.com/uc?id=1a_6w0w4OfOHSEWgG_F0_WFZd4ch49ZQe",
+        "Name": "Elevated Bicep Curl",
+        "Type": "Dumbbell"
     },
     {
         "id": "ex21",
-        "Image": "",
-        "Name": "Incline Bench Press",
+        "Image": "https://drive.google.com/uc?id=1DdJECGy3_wOq4ol7UY2zs3nD6N5x_vQk",
+        "Name": "Flat bench press",
         "Type": "Dumbbell"
     },
     {
         "id": "ex22",
-        "Image": "",
-        "Name": "Decline Bench Press",
+        "Image": "https://drive.google.com/uc?id=1wpYC_i2WzKyL26gWqoL3dElT5jJHCfTc",
+        "Name": "Flat Dunbbell Fly",
         "Type": "Dumbbell"
     },
     {
         "id": "ex23",
-        "Image": "",
-        "Name": "Flat Bench Press",
+        "Image": "https://drive.google.com/uc?id=15MSUB2wB6-cQe1SyuFSCpM_RbTOFf9aV",
+        "Name": "Front Laterals Raise",
         "Type": "Dumbbell"
     },
     {
         "id": "ex24",
-        "Image": "",
-        "Name": "Flys",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1g-ty5eZhCfhvNw9MRkU5f8iaclzRh7Fp",
+        "Name": "Chest Stretch",
+        "Type": "Stretching"
     },
     {
         "id": "ex25",
-        "Image": "",
-        "Name": "Hammer Curls",
+        "Image": "https://drive.google.com/uc?id=1PQkoM8cyS5eNRzNj-4h9SiDG8LLBjDgp",
+        "Name": "Hammer Curl",
         "Type": "Dumbbell"
     },
     {
         "id": "ex26",
-        "Image": "",
-        "Name": "Reverse Curls",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1JLWZKRF5xSrb83qhnQhc7q8n2mhPgeI9",
+        "Name": "High Knees",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex27",
-        "Image": "",
-        "Name": "Skull Crushers",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1Uzf8XFU8wD1KTddUrll5B9YxovnaV_YQ",
+        "Name": "Inclined Pushups",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex28",
-        "Image": "",
-        "Name": "Bent Over Rows",
+        "Image": "https://drive.google.com/uc?id=1NKoqgttPO5ISgY7SJ3GCsgigaAs3OfTT",
+        "Name": "Kettekbell Alternate Leg Squat",
         "Type": "Dumbbell"
     },
     {
         "id": "ex29",
-        "Image": "",
-        "Name": "Upright Rows",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1dlypTxflARxShts_km-uZKc5RygM2bkB",
+        "Name": "Leg Lateral Stretch",
+        "Type": "Stretching"
     },
     {
         "id": "ex30",
-        "Image": "",
-        "Name": "Shrugs",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1OsaHVe4GZt2eMR4TsK5zmgIpxZEQiASz",
+        "Name": "Leg Twisters",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex31",
-        "Image": "",
-        "Name": "Side Lateral Raises",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1n0MTC2eb2TAKD1GpXgHpqUHXcxAugFdd",
+        "Name": "Alternate Leg Raise",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex32",
-        "Image": "",
-        "Name": "Front Lateral Raises",
+        "Image": "https://drive.google.com/uc?id=1QuFOz8vGunzgKUkJAVMgRYRDqD3MhoI1",
+        "Name": "Millitary Press",
         "Type": "Dumbbell"
     },
     {
         "id": "ex33",
-        "Image": "",
-        "Name": "Bent Over Rear Delt Raises",
+        "Image": "https://drive.google.com/uc?id=1DNUcs4FbXRkruN_ygo3dtIuqyHwWWxv2",
+        "Name": "One Arm Dumbbell Row",
         "Type": "Dumbbell"
     },
     {
         "id": "ex34",
-        "Image": "",
-        "Name": "Calf Raises",
+        "Image": "https://drive.google.com/uc?id=1bWlFPehSQmR94vDLq0ycnKZcbLORJxdY",
+        "Name": "One Hand Pushups",
         "Type": "Bodyweight"
     },
     {
         "id": "ex35",
-        "Image": "",
-        "Name": "Leg Press",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1L_6d-bI_F9AG4U4tVGKcz2LcqY0P4gQ1",
+        "Name": "Pipe Pushups",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex36",
-        "Image": "",
-        "Name": "Leg Curls",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1X3tNvQd620-TYYbQQx4z_s2iYu7ehWNJ",
+        "Name": "Planks",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex37",
-        "Image": "",
-        "Name": "Leg Extensions",
+        "Image": "https://drive.google.com/uc?id=1oG3xSLKBHLCns05Z2VwNczEfcpT-0z7C",
+        "Name": "Plate Front Raise",
         "Type": "Dumbbell"
     },
     {
         "id": "ex38",
-        "Image": "",
-        "Name": "Seated Rows",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1DDP3DNJKGNx2pLBrUkmdFWmfvfk9Uk2F",
+        "Name": "Pushups",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex39",
-        "Image": "",
-        "Name": "Lat Pulldowns",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1Ma_0dlUMxQ4qxtILUcdALUGLnIN7g7Tz",
+        "Name": "Reverse Pushups",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex40",
-        "Image": "",
-        "Name": "Cable Rows",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1GMyfUrMjE6sX8M_1qnqgF83X2f_Lg-nU",
+        "Name": "Russian Twist",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex41",
-        "Image": "",
-        "Name": "Cable Curls",
+        "Image": "https://drive.google.com/uc?id=19N_1PUMhHShbYysOscym8QePRsoaIklo",
+        "Name": "Shoulder Fliers",
         "Type": "Dumbbell"
     },
     {
         "id": "ex42",
-        "Image": "",
-        "Name": "Cable Tricep Extensions",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=126Nz_cNgWXaDYKpSThawx0GCp_5856mi",
+        "Name": "Shoulder Warmup",
+        "Type": "Stretching"
     },
     {
         "id": "ex43",
-        "Image": "",
-        "Name": "Cable Flys",
+        "Image": "https://drive.google.com/uc?id=1jn6EvvqY27_DoW4cLxcieFLFefgNvb5f",
+        "Name": "Shrugs",
         "Type": "Dumbbell"
     },
     {
         "id": "ex44",
-        "Image": "",
-        "Name": "Cable Crunches",
+        "Image": "https://drive.google.com/uc?id=1GmcGpvbfuZwoOYqI2teutNgAJ7dCwWLA",
+        "Name": "Side Laterals Raise",
         "Type": "Dumbbell"
     },
     {
         "id": "ex45",
-        "Image": "",
-        "Name": "Cable Leg Curls",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1Ed9v1Wmk_LKrua35LWxB2vj2YGMl25DC",
+        "Name": "SitUps",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex46",
-        "Image": "",
-        "Name": "Cable Leg Extensions",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=17FuhBg5KNC22Pe7e7od0HTtoohRZqMow",
+        "Name": "Skipping",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex47",
-        "Image": "",
-        "Name": "Cable Calf Raises",
-        "Type": "Dumbbell"
+        "Image": "https://drive.google.com/uc?id=1zj0QKi4_PtANbEZifLMKVHXOH0jDKUTg",
+        "Name": "Squarts",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex48",
-        "Image": "",
-        "Name": "Stretching Hamstrings",
-        "Type": "Stretching"
+        "Image": "https://drive.google.com/uc?id=1wLuAul0ixFCTu0Hew0xEcL4x6HxEotjq",
+        "Name": "Triceps Pushups",
+        "Type": "Bodyweight"
     },
     {
         "id": "ex49",
-        "Image": "",
-        "Name": "Stretching Quads",
-        "Type": "Stretching"
-    },
-    {
-        "id": "ex50",
-        "Image": "",
-        "Name": "Stretching Calves",
-        "Type": "Stretching"
-    },
-    {
-        "id": "ex51",
-        "Image": "",
-        "Name": "Stretching Shoulders",
-        "Type": "Stretching"
-    },
-    {
-        "id": "ex52",
-        "Image": "",
-        "Name": "Stretching Chest",
-        "Type": "Stretching"
-    },
-    {
-        "id": "ex53",
-        "Image": "",
-        "Name": "Stretching Back",
-        "Type": "Stretching"
-    },
-    {
-        "id": "ex54",
-        "Image": "",
-        "Name": "Stretching Triceps",
-        "Type": "Stretching"
-    },
-    {
-        "id": "ex55",
-        "Image": "",
-        "Name": "Stretching Biceps",
-        "Type": "Stretching"
-    },
-    {
-        "id": "ex56",
-        "Image": "",
-        "Name": "Stretching Neck",
-        "Type": "Stretching"
-    },
-    {
-        "id": "ex57",
-        "Image": "",
-        "Name": "Stretching Groin",
-        "Type": "Stretching"
-    },
-    {
-        "id": "ex58",
-        "Image": "",
-        "Name": "Stretching Hips",
-        "Type": "Stretching"
+        "Image": "https://drive.google.com/uc?id=1mv_XlByGo9sT92aas7H9pKi5-wyO3h3g",
+        "Name": "Weighted Kickback",
+        "Type": "Dumbbell"
     }
 ]
