@@ -15,13 +15,13 @@ function Progress() {
                             Add a new workout
                         </button>
                     </div>
-                    <div className=' w-full flex justify-between p-4 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 rounded-lg shadow-md hover:shadow-xl'>
+                    <div className=' w-full flex justify-between p-4 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 rounded-lg shadow-md '>
                         <div className=' flex flex-col justify-start items-start'>
-                            <h3 className=' text-2xl font-sans font-semibold'>Workout Plan 1</h3>
-                            <p className=''>10 Exercises</p>
+                            <h3 className=' text-4xl font-sans font-semibold'>Workout Plan 1</h3>
+                            <p className='text-lg'>10 Exercises</p>
                         </div>
                         <div className='flex flex-col  items-end'>
-                            <div className='flex gap-x-6 text-xl mb-4  items-center justify-center '>
+                            <div className='flex gap-x-6 text-2xl mb-4  items-center justify-center '>
                                 <button
                                     className='hover:scale-110 text-2xl'
                                     title='Edit Workout Plan'
