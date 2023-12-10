@@ -22,9 +22,7 @@ app.use((error, req, res, next) => {
 });
 
 mongoose
-    .connect(
-        'mongodb+srv://ksatyam433:rjbUeQKQHqekiwTd@cluster0.sp4vkvx.mongodb.net/?retryWrites=true&w=majority'
-    )
+    .connect('')
     .then(() => {
         app.listen(5000);
     })
